@@ -10,3 +10,5 @@ The implementation of these challenges follows the methodology of Test-Driven De
     - Test again until all tests pass
 
 The challenges are based on [Codewars](https://www.codewars.com/) exercises.
+
+1. [Reverse Letter](src/main/scala/challenge01)
