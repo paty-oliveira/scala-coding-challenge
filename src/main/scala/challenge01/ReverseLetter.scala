@@ -10,4 +10,7 @@ package challenge01
 
 class ReverseLetter {
 
+  def convertToReverse(word: String): String = {
+    word.replaceAll("\\d+\\W+", "").reverse
+  }
 }
