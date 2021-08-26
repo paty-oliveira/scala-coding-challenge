@@ -131,4 +131,5 @@ hs_err_pid*
 # Ignore all local history of files
 .ionide
 
+.scalafmt.conf
 # End of https://www.toptal.com/developers/gitignore/api/scala,sbt,intellij+all,visualstudiocode
