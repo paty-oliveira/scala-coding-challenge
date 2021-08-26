@@ -1,26 +1,25 @@
 package challenge02
 
 /**
- * Write a method that takes an array of consecutive (increasing) letters as input and that returns
- * the missing letter in the array.
- * You will always get an valid array. And it will be always exactly one letter be missing.
- * The length of the array will always be at least 2.
- * The array will always contain letters in only one case.
- *
- * Example:
- * ['a','b','c','d','f'] -> 'e'
- * ['O','Q','R','S'] -> 'P'
- * ["a","b","c","d","f"] -> "e"
- * ["O","Q","R","S"] -> "P"
- */
+  * Write a method that takes an array of consecutive (increasing) letters as input and that returns
+  * the missing letter in the array.
+  * You will always get an valid array. And it will be always exactly one letter be missing.
+  * The length of the array will always be at least 2.
+  * The array will always contain letters in only one case.
+  *
+  * Example:
+  * ['a','b','c','d','f'] -> 'e'
+  * ['O','Q','R','S'] -> 'P'
+  * ["a","b","c","d","f"] -> "e"
+  * ["O","Q","R","S"] -> "P"
+  */
 
 class Letter {
   def takeMissingLetter(inputLetters: List[Char]): Char = {
-    val firstLetter = inputLetters.head
-    val lastLetter = inputLetters.last
-    val validLetters = (firstLetter to lastLetter).toSet
-    val missingLetter = validLetters.diff(inputLetters.toSet)
+    val validLettersRange: Set[Char] =
+      (inputLetters.head to inputLetters.last).toSet
+    val missingLetter: Char = validLettersRange.diff(inputLetters.toSet).head
 
-    missingLetter.head
+    missingLetter
   }
 }
