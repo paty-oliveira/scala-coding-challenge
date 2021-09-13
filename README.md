@@ -14,3 +14,4 @@ The challenges are based on [Codewars](https://www.codewars.com/) exercises.
 1. [Reverse Letter](src/main/scala/challenge01)
 2. [Find the missing letter](src/main/scala/challenge02)
 3. [Roman Numerals Encoder](src/main/scala/challenge03)
+4. [Split Strings by Pairs](src/main/scala/challenge04)
