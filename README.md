@@ -1,5 +1,5 @@
 # Coding challenges
-The goal of this repository is to improve Java programming skills with a coding challenge.
+The goal of this repository is to improve Scala programming skills with a coding challenge.
 The implementation of these challenges follows the methodology of Test-Driven Development, i.e.:
 
     - Think about tests cases
@@ -15,3 +15,4 @@ The challenges are based on [Codewars](https://www.codewars.com/) exercises.
 2. [Find the missing letter](src/main/scala/challenge02)
 3. [Roman Numerals Encoder](src/main/scala/challenge03)
 4. [Split Strings by Pairs](src/main/scala/challenge04)
+5. [Replace With Alphabet Position](src/main/scala/challenge05)
