@@ -16,3 +16,4 @@ The challenges are based on [Codewars](https://www.codewars.com/) exercises.
 3. [Roman Numerals Encoder](src/main/scala/challenge03)
 4. [Split Strings by Pairs](src/main/scala/challenge04)
 5. [Replace With Alphabet Position](src/main/scala/challenge05)
+6. [Ordered Count of Characters](src/main/scala/challenge06)
